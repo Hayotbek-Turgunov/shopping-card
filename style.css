@@ -1,0 +1,92 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+.main-content{
+  background-image: url(./img/bacg.jpg);
+  background-repeat:no-repeat;
+  background-position:center;
+  background-size:cover;
+  height: 750px;
+
+}
+.container{
+  max-width: 1192px;
+  width: 100%;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: auto;
+  margin-right:auto;
+
+}
+.intro-page{
+  display: flex;
+  padding-top: 30px;
+}
+.shopping-card-page {
+  padding-top: 40px;
+  padding-left: 30px;
+  padding-right: 30px;
+  width: 100%;
+  max-width: 660px;
+  height: 600px;
+  background-color: white;
+}
+
+.shopping-card-page img{
+  width: 100%;
+  margin-bottom: 70px;
+}
+.shopping-card-page-heading{
+  color:#3A7DB8FF ;
+}
+.shopping-card-page-btn{
+  padding: 12px 20px;
+  border:  1px solid #3A7DB8FF;
+  color: #3A7DB8FF ;
+  background: white;
+}
+.hero-shopping-card {
+  width: 100%;
+  max-width: 400px;
+  height: 600px;
+  background-color: white;
+  padding-top: 80px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.hero-shopping-page-heading {
+  color:#3A7DB8FF;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+.hero-shopping-card-title {
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+.hero-shopping-card-money {
+  color: #3A7DB8FF;
+  font-size: 30px;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+.hero-shopping-card-text{
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.5;
+  margin-top: 0;
+  margin-bottom:20px ;
+}
+.hero-shopping-card-btn{
+  padding-left: 130px;
+  padding-right: 130px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background-color: #3A7DB8FF;
+  border-radius: 10px;
+  border: none;
+  color: white;
+  font-weight: 600;
+  font-size:  px;
+}
